@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="237d9fc2-e43a-4b74-99fe-bf33bbc7380c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/base/Myprogress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/base/Myprogress.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Myprogress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Myprogress.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,7 +19,11 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Myprogress.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -59,6 +61,13 @@
         <option value="$PROJECT_DIR$/src/v1ch04/ConstructorTest/ConstructorTest.java" />
         <option value="$PROJECT_DIR$/src/v1ch04/PackageTest/com/horstmann/corejava/Employee.java" />
         <option value="$PROJECT_DIR$/src/v1ch04/PackageTest/PackageTest.java" />
+        <option value="$PROJECT_DIR$/src/v1ch05/inheritance/Employee.java" />
+        <option value="$PROJECT_DIR$/src/v1ch05/inheritance/Manager.java" />
+        <option value="$PROJECT_DIR$/src/v1ch05/inheritance/ManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/v1ch05/abstractClasses/Person.java" />
+        <option value="$PROJECT_DIR$/src/v1ch05/abstractClasses/Employee.java" />
+        <option value="$PROJECT_DIR$/src/v1ch05/abstractClasses/Student.java" />
+        <option value="$PROJECT_DIR$/src/v1ch05/abstractClasses/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/Myprogress.java" />
       </list>
     </option>
@@ -69,9 +78,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1680" />
-    <option name="width" value="1036" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1199" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -82,6 +90,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,14 +108,19 @@
               <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="v1ch04" type="462c0819:PsiDirectoryNode" />
+              <item name="v1ch05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="v1ch05" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,12 +143,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Myprogress">
-    <configuration name="ConstructorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v1ch04.ConstructorTest.ConstructorTest" />
+    <configuration name="ManagerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v1ch05.inheritance.ManagerTest" />
       <module name="base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="v1ch04.ConstructorTest.*" />
+          <option name="PATTERN" value="v1ch05.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v1ch05.inheritance.inheritance.ManagerTest" />
+      <module name="base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="v1ch05.inheritance.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,25 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v1ch04.ParamTest" />
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v1ch05.abstractClasses.PersonTest" />
       <module name="base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="v1ch04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v1ch04.StaticTest" />
-      <module name="base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="v1ch04.*" />
+          <option name="PATTERN" value="v1ch05.abstractClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,18 +204,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Myprogress" />
-      <item itemvalue="Application.StaticTest" />
-      <item itemvalue="Application.ParamTest" />
-      <item itemvalue="Application.ConstructorTest" />
       <item itemvalue="Application.PackageTest" />
+      <item itemvalue="Application.ManagerTest" />
+      <item itemvalue="Application.ManagerTest (1)" />
+      <item itemvalue="Application.PersonTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Myprogress" />
+        <item itemvalue="Application.PersonTest" />
+        <item itemvalue="Application.ManagerTest (1)" />
+        <item itemvalue="Application.ManagerTest" />
         <item itemvalue="Application.PackageTest" />
-        <item itemvalue="Application.ConstructorTest" />
-        <item itemvalue="Application.ParamTest" />
-        <item itemvalue="Application.StaticTest" />
       </list>
     </recent_temporary>
   </component>
@@ -218,10 +233,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="1036" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1199" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31589538" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22731201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,8 +457,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/v1ch05/inheritance/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v1ch05/inheritance/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v1ch05/inheritance/ManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v1ch05/abstractClasses/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v1ch05/abstractClasses/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v1ch05/abstractClasses/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v1ch05/abstractClasses/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Myprogress.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
