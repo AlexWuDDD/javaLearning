@@ -11,6 +11,8 @@ public class Myprogress
         System.out.println("Wed Jul 10 09:19:52 CST 2019" + " 看到 第5章， 还没开始");
         System.out.println("Thu Jul 11 08:56:15 CST 2019" + " 看到 5.2.2， 还没开始");
         System.out.println("Mon Jul 15 06:09:27 CST 2019" + " 看到 5.4， 还没开始");
+        System.out.println("Thu Jul 18 06:40:31 CST 2019" + " 看到 5.7， 还没开始");
+        System.out.println("Mon Jul 22 09:02:02 CST 2019" + " 看到 5.7.5， 还没开始");
         System.out.println(new Date() + " 看到 XXX， 还没开始");
 
     }
