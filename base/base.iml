@@ -5,7 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/v1ch06/interaces/others" />
-      <excludeFolder url="file://$MODULE_DIR$/src/v1ch06/interfaces" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch06/interaces/timer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

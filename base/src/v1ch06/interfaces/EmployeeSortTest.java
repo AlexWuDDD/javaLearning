@@ -1,4 +1,4 @@
-package v1ch06.interaces;
+package v1ch06.interfaces;
 
 
 import java.util.Arrays;
