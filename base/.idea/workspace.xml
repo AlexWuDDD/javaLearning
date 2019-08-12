@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="237d9fc2-e43a-4b74-99fe-bf33bbc7380c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/base/META-INF/base.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/base/Myprogress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/base/Myprogress.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Myprogress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Myprogress.java" afterDir="false" />
     </list>
@@ -50,25 +49,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Myprogress">
-    <configuration name="AnonymousInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v1ch06.anonymousInnerClass.AnonymousInnerClassTest" />
+    <configuration name="LoggingImageViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v1ch07.logging.LoggingImageViewer" />
       <module name="base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="v1ch06.anonymousInnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v1ch06.innerClass.InnerClassTest" />
-      <module name="base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="v1ch06.innerClass.*" />
+          <option name="PATTERN" value="v1ch07.logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v1ch06.proxy.ProxyTest" />
+    <configuration name="PairTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v1ch08.pair1.PairTest1" />
       <module name="base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="v1ch06.proxy.*" />
+          <option name="PATTERN" value="v1ch08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v1ch06.staticInnerClass.StaticInnerClassTest" />
+    <configuration name="PairTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v1ch08.pair2.PairTest2" />
       <module name="base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="v1ch06.staticInnerClass.*" />
+          <option name="PATTERN" value="v1ch08.pair2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTraceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v1ch07.stackTrace.StackTraceTest" />
+      <module name="base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="v1ch07.stackTrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,18 +110,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Myprogress" />
-      <item itemvalue="Application.InnerClassTest" />
-      <item itemvalue="Application.AnonymousInnerClassTest" />
-      <item itemvalue="Application.StaticInnerClassTest" />
-      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Application.StackTraceTest" />
+      <item itemvalue="Application.LoggingImageViewer" />
+      <item itemvalue="Application.PairTest1" />
+      <item itemvalue="Application.PairTest2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Myprogress" />
-        <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.StaticInnerClassTest" />
-        <item itemvalue="Application.AnonymousInnerClassTest" />
-        <item itemvalue="Application.InnerClassTest" />
+        <item itemvalue="Application.PairTest2" />
+        <item itemvalue="Application.PairTest1" />
+        <item itemvalue="Application.LoggingImageViewer" />
+        <item itemvalue="Application.StackTraceTest" />
       </list>
     </recent_temporary>
   </component>
